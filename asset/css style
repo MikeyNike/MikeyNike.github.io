@@ -1,0 +1,70 @@
+.header {
+	display: block;
+	width: 1410px;
+	height: 10px;
+	border:0px
+	padding:25px;
+	margin:0px auto 0px auto;
+	color: blue;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 40px;
+	line-height: 20px;
+text-align:left;
+}
+body {
+	background-image: url("../stock.jpeg");
+	background-size: cover;
+}
+span {
+	color:rgba(94, 146, 43, 0.621);
+	font-style:normal;
+	font-size: 170px;
+}
+body {
+		font-family: "Audiowide", sans-serif;
+		font-weight: 400px;
+		font-style:normal;
+}
+#welcome {
+	display:inline-block;
+	width: 1000px;
+	height: 50px;
+	border: 0px solidcolor #ddd900;
+	padding:25px;
+	margin: 20px auto 10px auto;
+	color:rgba(94, 146, 43, 0.621);
+	font-style:normal;
+	font-size: 200px;
+	line-height: 125px;
+	text-align:left;	
+}
+#fall {
+	display:inline-block;
+	width: 50px;
+	height: 10px;
+	border: 2px solidcolor #ddd900;
+	padding:5px;
+	margin: 2px auto 2px auto;
+	color:rgba(94, 146, 43, 0.621);
+	font-style:normal;
+	font-size: 100px;
+	line-height: 57px;
+	text-align:right;
+}
+.exercises {
+	display: block;
+	position:fixed;
+	width: 1410px;
+	height: 10px;
+	border:50px solidcolor #ddd900;
+	padding:25px;
+	margin:580px auto 550px auto;
+	color: blue;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 40px;
+	line-height: 20px;
+text-align:left;	
+}
+  
