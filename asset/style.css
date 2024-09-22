@@ -2,7 +2,7 @@
 	display: block;
 	width: 1410px;
 	height: 10px;
-	border:0px
+	border:0px;
 	padding:25px;
 	margin:0px auto 0px auto;
 	color: blue;
@@ -20,6 +20,7 @@ span {
 	color:rgba(94, 146, 43, 0.621);
 	font-style:normal;
 	font-size: 170px;
+	pointer-events: none;
 }
 body {
 		font-family: "Audiowide", sans-serif;
