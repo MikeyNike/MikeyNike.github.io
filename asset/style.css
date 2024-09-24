@@ -1,15 +1,15 @@
 .header {
 	display: block;
 	width: 1410px;
-	height: 10px;
+	height: 0px;
 	border:0px;
 	padding:25px;
-	margin:0px auto 0px auto;
+	margin:2px auto 0px auto;
 	color: blue;
 	font-weight: 600;
 	font-style: italic;
 	font-size: 40px;
-	line-height: 20px;
+	line-height: 10px;
 text-align:left;
 }
 body {
@@ -57,10 +57,10 @@ body {
 	display: block;
 	position:fixed;
 	width: 1410px;
-	height: 10px;
+	height: 50px;
 	border:50px solidcolor #ddd900;
 	padding:25px;
-	margin:580px auto 550px auto;
+	margin:570px auto 550px auto;
 	color: blue;
 	font-weight: 600;
 	font-style: italic;
