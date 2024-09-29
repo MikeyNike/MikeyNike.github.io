@@ -1,71 +1,88 @@
-.header {
-	display: block;
-	width: 1410px;
-	height:0;
-	border:0px;
-	padding:25px;
-	margin:2px auto 0px auto;
-	color: blue;
-	font-weight: 600;
-	font-style: italic;
-	font-size: 40px;
-	line-height: 10px;
-text-align:left;
+.container {
+	width: 900px;
+    padding: 20px;
+    border: dotted rgb(246, 50, 6);
+    border-width: 650px;
+    border-radius: 5px;
+	margin-top: 0px;
+	margin-left: 0px ;
+    position: absolute;
+	overflow:hidden;
 }
 body {
+	font-family: "Audiowide", sans-serif;
+	color: blue;
+	font-size: 1rem;
 	background-image: url("../stock.jpeg");
 	background-size: cover;
 }
-span {
+h1 {
+	display:inline;
+	font-size: 30px;
+	font-style: italic;
+	width: 850px;
+	height: 50px;
+	/*border: 5px solid #0088dd;*/
+	padding: 10px;
+	margin: 60px auto 0px auto;
+}
+.dots {
 	color:rgba(94, 146, 43, 0.621);
-	font-style:normal;
-	font-size: 170px;
+	font-size: 3.5em;
+}
+.dots01 {
+	color:rgba(94, 146, 43, 0.621);
+	font-size: 2.5em;
 	pointer-events: none;
 }
-body {
-		font-family: "Audiowide", sans-serif;
-		font-weight: 400px;
-		font-style:normal;
-}
 #welcome {
-	display:inline-block;
-	width: 1000px;
-	height: 50px;
-	border: 0px solidcolor #ddd900;
-	padding:25px;
-	margin: 20px auto 10px auto;
+	display: block;
+	border: dotted rgba(194, 246, 6, 0.635);
+    border-width: 500px;
+	transform: rotateX('60');
 	color:rgba(94, 146, 43, 0.621);
 	font-style:normal;
-	font-size: 200px;
-	line-height: 125px;
-	text-align:left;	
+	font-size: 10rem;
+	line-height: .6em;	
+	width: 850px;
+	height: 400px;
+	/*border: 5px solid #0088dd;*/
+	padding: 10px;
+	margin: 15px auto 0px auto;
+	text-align: top;
 }
 #fall {
-	display:inline-block;
-	width: 50px;
-	height: 10px;
+	display:block;
+	width: 10px;
+	right: 50%;
 	border: 2px solidcolor #ddd900;
-	padding:5px;
-	margin: 2px auto 2px auto;
-	color:rgba(94, 146, 43, 0.621);
 	font-style:normal;
-	font-size: 100px;
-	line-height: 57px;
+	font-size: 4.5em;
+	line-height: .55em;
+	width: 850px;
+	height: 50px;
+	/*border: 0px solid #0088dd;*/
+	padding: 5px;
+	margin: 0px auto 5px auto;
 	text-align:right;
 }
 .exercises {
 	display: block;
-	position:fixed;
 	width: 1410px;
 	height: 50px;
 	border:50px solidcolor #ddd900;
 	padding:25px;
-	margin:570px auto 550px auto;
+	margin:530px auto 530px auto;
 	color: blue;
 	font-weight: 600;
 	font-style: italic;
-	font-size: 40px;
-	line-height: 20px;
-text-align:left;	
+	font-size: 2.4em;
+	line-height: .9em;
+	width: 850px;
+	height: 200px;
+	/*border: 5px solid #0088dd;*/
+	padding: 5px;
+	margin: 2px auto 10px auto;
+	/*text-align:right;*/
 }
   
