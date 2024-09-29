@@ -91,16 +91,6 @@ h2 {
 	font-style: italic;
 	width: 850px;
 	height: 50px;
-	border: 5px solid #0088dd;
-	padding: 10px;
-	margin: 0px auto 0px auto;
-}
-.definition {
-	display:inline;
-	font-size: 30px;
-	font-style: italic;
-	width: 850px;
-	height: 50px;
 	/*border: 5px solid #0088dd;*/
 	padding: 10px;
 	margin: 0px auto 0px auto;
@@ -139,4 +129,35 @@ h2 {
 	margin: 0px auto 0px auto;
 	text-align:left;
 }
-  
+.text {
+	background-color:rgb(246, 191, 191);
+	/*color: whitesmoke;*/
+	display:block;
+	width: 10px;
+	right: 50%;
+	border: dotted rgb(246, 6, 6);
+    border-width: 1px;
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	width: 750px;
+	height: 450px;
+	padding: 10px;
+	margin: 10px auto 0px auto;
+	text-align:center;
+}
+.nextpage {
+	display:inline;
+	font-size: 2.5em;
+	font-style: italic;
+	width: 850px;
+	height: 500px;
+	/*border: 5px solid #0088dd;*/
+	padding: 10px;
+	margin: 0px auto 0px auto;
+}
+.dots02 {
+	color:rgba(94, 146, 43, 0.621);
+	font-size: 1em;
+}
