@@ -24,7 +24,7 @@ h1 {
 	height: 50px;
 	/*border: 5px solid #0088dd;*/
 	padding: 10px;
-	margin: 60px auto 0px auto;
+	margin: 0px auto 0px auto;
 }
 .dots {
 	color:rgba(94, 146, 43, 0.621);
@@ -43,13 +43,13 @@ h1 {
 	color:rgba(94, 146, 43, 0.621);
 	font-style:normal;
 	font-size: 10rem;
-	line-height: .6em;	
+	line-height: .55em;	
 	width: 850px;
-	height: 400px;
+	height: 380px;
 	/*border: 5px solid #0088dd;*/
 	padding: 10px;
-	margin: 15px auto 0px auto;
-	text-align: top;
+	margin: 0px auto 0px auto;
+	overflow:visible;
 }
 #fall {
 	display:block;
@@ -84,5 +84,56 @@ h1 {
 	padding: 5px;
 	margin: 2px auto 10px auto;
 	/*text-align:right;*/
+}
+h2 {
+	display:inline;
+	font-size: 2.5em;
+	font-style: italic;
+	width: 850px;
+	height: 50px;
+	border: 5px solid #0088dd;
+	padding: 10px;
+	margin: 0px auto 0px auto;
+}
+.definition {
+	display:inline;
+	font-size: 30px;
+	font-style: italic;
+	width: 850px;
+	height: 50px;
+	/*border: 5px solid #0088dd;*/
+	padding: 10px;
+	margin: 0px auto 0px auto;
+}
+.definition01 {
+	display:block;
+	width: 10px;
+	right: 50%;
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	width: 750px;
+	height: 155px;
+	border: 0px solid #0088dd;
+	padding: 5px;
+	margin: 10px auto 50px auto;
+	text-align:left;
+}
+.definition02 {
+	color: aqua;
+	display:block;
+	width: 10px;
+	right: 50%;
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	width: 750px;
+	height: 220px;
+	border: 0px solid #0088dd;
+	padding: 5px;
+	margin: 10px auto 50px auto;
+	text-align:left;
 }
   
