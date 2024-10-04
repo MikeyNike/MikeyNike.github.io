@@ -130,22 +130,22 @@ h2 {
 	text-align:left;
 }
 .text {
-	background-color:rgb(246, 191, 191);
+	background-color:rgb(247, 250, 208);
 	/*color: whitesmoke;*/
 	display:block;
 	width: 10px;
 	right: 50%;
-	border: dotted rgb(246, 6, 6);
-    border-width: 1px;
+	/*border: dotted rgb(246, 6, 6);
+    border-width: 400px;*/
 	border: 2px solidcolor #ddd900;
 	font-style:normal;
 	font-size: 1.3em;
 	line-height: 1.5em;
 	width: 750px;
-	height: 450px;
-	padding: 10px;
+	height: 425px;
+	padding: 50px;
 	margin: 10px auto 0px auto;
-	text-align:center;
+	text-align:left;
 }
 .nextpage {
 	display:inline;
@@ -160,4 +160,14 @@ h2 {
 .dots02 {
 	color:rgba(94, 146, 43, 0.621);
 	font-size: 1em;
+}
+h3 {
+	display:inline;
+	font-size: 2.5em;
+	font-style: italic;
+	width: 850px;
+	height: 50px;
+	border: 5px solid #0088dd;
+	padding: 10px;
+	margin: 0px auto 0px auto;
 }
