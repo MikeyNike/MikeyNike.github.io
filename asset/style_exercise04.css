@@ -1,0 +1,16 @@
+#m1 {
+    background-color:blue;
+    width: 300px;
+    height: 700px;
+    position: relative;
+}
+/*[class^="stroke-"] {
+    background-color: aquamarine
+    border:beige;
+}*/
+.left {
+    padding: 50%;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+}
