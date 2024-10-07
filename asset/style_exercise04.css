@@ -1,16 +1,25 @@
 #m1 {
-    background-color:blue;
-    width: 300px;
-    height: 700px;
+    background-color: greenyellow;
+    width: 500px;
+    height: 500px;
     position: relative;
 }
 /*[class^="stroke-"] {
     background-color: aquamarine
     border:beige;
 }*/
-.left {
-    padding: 50%;
-    width: 300px;
-    height: 500px;
+.strokeleft {
+    margin-left: 50px;
+    padding: 25px;
+    width: 1px;
+    height: 250px;
     background-color: black;
+}
+.strokemid01 {
+    display: inline-block;
+    margin-left: 100px;
+    padding: 25px;
+    width: 250px;
+    height: 1px;
+    background-color: blue;
 }
