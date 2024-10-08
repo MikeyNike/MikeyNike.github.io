@@ -20,6 +20,13 @@
     width: 300px;
     height: 500px;
     background-color: black;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s; 
+}
+#left:hover {
+    background-color: aquamarine;
 }
 #mid01 {
     position: absolute;
