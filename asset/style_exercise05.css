@@ -7,7 +7,7 @@
     display: inline-block;
 }
 #gradientContainer {
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(to right, blue, pink);
     width: 2000px;
     height: 2000px;
     position: fixed;
