@@ -1,50 +1,285 @@
 .container {
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0); 
         width: 500px;
         height: 500px;
         position: absolute;
-        padding-top: 50px;
-        padding-left: 25px;
+        /* padding-left: 25px; */
         display: inline-block;
 }
-#m1 {
-    top: 0px;
-    left: 0px;
+#m5 {
+    top: 250px;
+    left: 1000px;
 }
-#m2 {
-    top: 500px;
-    left: 0px;
-}
-#m3 {
-    left: 500px;
-    top: 0px
-}
-#m4 {
-    left: 500px;
-    top: 500px;
-}
-
 #gradientContainer {
     background: linear-gradient(blue, pink);
-    width: 1000px;
-    height: 1000px;
+    width: 2000px;
+    height: 2000px;
     position: fixed;
     top: 0;
     left: 0;
 }
-
+#m1 {
+    /* background-color: red; */
+    top: 0px;
+    left: 0px;
+}
+#m2 {
+    /* background-color: aquamarine; */
+    top: 500px;
+    left: 0px;
+}
+#m3 {
+    /* background-color: purple; */
+    left: 500px;
+    top: 0px
+}
+#m4 {
+    /* background-color: peru; */
+    left: 500px;
+    top: 500px;
+}
+/* m1- styles for each element starts here*/
 #strokeleft {
     margin-left: 50px;
     width: 50px;
-    height: 250px;
+    height: 500px;
     background-color: black;
 }
 #strokemid01 {
     position: absolute;
-    top: 30px;
+    top: 50px;
     margin-left: 100px;
-    padding: 25px;
+    padding: 10px;
+    width: 50px;
+    background-color:pink;
+}
+#strokemid02 {
+    position: absolute;
+    top: 80px;
+    margin-left: 150px;
+    padding: 10px;
+    width: 50px;
+    /* height: 1px; */
+    background-color:pink;
+}
+#strokemid03 {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding: 10px;
+    width: 50px;
+    /* height: 1px; */
+    background-color:pink;
+}
+#strokemid04 {
+    position: absolute;
+    top: 80px;
+  right: 150px;
+    padding: 10px;
+    width: 50px;
+    /* height: 1px; */
+    background-color:pink;
+}
+#strokemid05 {
+    position: absolute;
+    top: 110px;
+    margin-left: 215px;
+    padding: 10px;
+    width: 50px;
+    /* height: 1px; */
+    background-color:pink;
+}
+#strokeright {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 50px;
+    height: 400px;
+    background-color: black; 
+}
+/* m2- styles for each element starts here*/
+#left {
+    margin-left: 50px;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+}
+#mid01 {
+    position: absolute;
+    top: 0px;
+    margin-left: 350px;
+    padding: 2px;
+    width: 33px;
+    /* height: 1px; */
+    background-color:pink;
+    transform: rotate(45deg);
+	transform-origin: top left;
+}
+#mid02 {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    padding: 2px;
+    width: 36px;
+    background-color:pink;
+    transform: rotate(-45deg); 
+	transform-origin: top right;
+    z-index: 50;
+}
+#right {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 50px;
+    height: 500px;
+    background-color: black;
+    z-index: 50;
+}
+/* m3- styles for each element starts here*/
+#l {
+    position: absolute;
+    top: 50px;
+    margin-left: 50px;
+    width: 92px;
+    height: 250px;
+    background-color: black;
+    border-radius: 1000px 70px 3px 850px;
+}
+#m01 {
+    position: absolute;
+    top: 50px;
+    margin-left: 141px;
+    padding: 2px;
+    width: 30px;
+    /* height: 1px; */
+    background-color:pink;
+    transform: rotate(15deg);
+	transform-origin: top left;
+}
+#m02 {
+    position: absolute;
+    top: 0px;
+    right: 300px;
+    padding: 2px;
+    width: 64px;
+    background-color:pink;
+    transform: rotate(-65deg); 
+	transform-origin: top right;
+    z-index: 50;
+}
+#m03 {
+    margin-left: 142px;
+    top: 300px;
+    width: 50px;
+    height: 196px;
+    background-color: black;
+    transform: rotate(90deg);
+	transform-origin: top left;
+    position: absolute;
+}
+#r {
+    position: absolute;
+    top: 0px;
+    right: 50px;
     width: 250px;
-    height: 1px;
-    background-color: blue;
+    height: 500px;
+    background-color: black;
+    border-radius:  10px 70px 7px 1000px;
+}
+/* m4- styles for each element starts here*/
+#le {
+    margin-left: -92px;
+    width: 50px;
+    height: 500px;
+    background-color: black;
+    transform: rotate(-30deg);
+	transform-origin: top left;
+}
+#mi01 {
+    position: absolute;
+    top: 40px;
+    margin-left: 62px;
+    padding: 10px;
+    width: 250px;
+    background-color:pink;
+    transform: rotate(59deg);
+	transform-origin: top left;
+}
+#mi02 {
+    position: absolute;
+    top: 69px;
+    margin-left: 153px;
+    padding: 10px;
+    width: 98px;
+    background-color:pink;
+    transform: rotate(59deg);
+	transform-origin: top left;
+}
+#mi03 {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    padding: 10px;
+    width: 50px;
+    background-color:pink;
+    border-radius:  10px 70px 7px 1000px;
+}
+#mi04 {
+    position: absolute;
+    top: 80px;
+  right: 150px;
+    padding: 10px;
+    width: 50px;
+    background-color:pink;
+    border-radius:  9px 700px 7000px 10000px;
+}
+#mi05 {
+    position: absolute;
+    top: 110px;
+    margin-left: 177px;
+    padding: 10px;
+    width: 113px;
+    background-color:pink;
+    border-radius: 1px 70px 7px 100px;
+}
+#ri {
+    position: absolute;
+    top: -7px;
+    right: 56px;
+    width: 21px;
+    height: 400px;
+    background-color: black; 
+    border-radius:  10px 70px 7px 1000px;
+}
+/* m5- styles for each element starts here*/
+#lef {
+    top: 24px;
+    margin-left: -50px;
+    width: 10px;
+    height: 400px;
+    background-color: black;
+    transform: rotate(-90deg);
+	transform-origin: top left;
+    /* position: absolute; */
+}
+#id01 {
+    position: absolute;
+    top: -41px;
+    margin-left: 93px;
+    padding: 10px;
+    width: 200px;
+    height: 490px;
+    background-color:pink;
+    /* transform: rotate(59deg); */
+	transform-origin: top left;
+}
+#rig {
+    position: absolute;
+    top: 373px;
+    right: 186px;
+    height: 0px;
+    border-top: 95px solid transparent;
+    border-right: 371px solid black;
+    border-bottom: 95px solid transparent;
+    transform: rotate(-180deg);
 }
