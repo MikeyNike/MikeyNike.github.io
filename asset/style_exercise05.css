@@ -1,0 +1,54 @@
+.container {
+    background-color: rgba(0, 0, 0, 0); 
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    /* padding-left: 25px; */
+    display: inline-block;
+}
+#gradientContainer {
+    background: linear-gradient(blue, pink);
+    width: 2000px;
+    height: 2000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* m2- styles for each element starts here*/
+#left {
+    margin-left: 50px;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+}
+#mid01 {
+    position: absolute;
+    top: 0px;
+    margin-left: 350px;
+    padding: 2px;
+    width: 33px;
+    /* height: 1px; */
+    background-color:pink;
+    transform: rotate(45deg);
+	transform-origin: top left;
+}
+#mid02 {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    padding: 2px;
+    width: 36px;
+    background-color:pink;
+    transform: rotate(-45deg); 
+	transform-origin: top right;
+    z-index: 50;
+}
+#right {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 50px;
+    height: 500px;
+    background-color: black;
+    z-index: 50;
+}
