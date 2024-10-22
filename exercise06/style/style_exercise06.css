@@ -50,7 +50,7 @@
 
 .mainpage {
 	display: inline-block;
-	background-color: #ddd900;
+	/* background-color: #ddd900; */
 	height: 100vh;
 	width: 45%;
 	/* margin: 5px;
@@ -63,7 +63,7 @@
 
 .photo {
 	display: inline-block;
-	background-color: black;
+	/* background-color: black; */
 	height: 100vh;
 	width: 55%;
 	/* margin: 5px; */
@@ -71,6 +71,7 @@
 }
 #light {
 	width: 100%;
+	height: 100%;
 }
 
 .landing02 {
@@ -100,4 +101,27 @@
 	color:red;
 	cursor: pointer;
 	
+}
+
+.landing03 {
+    display:table-cell;
+	vertical-align: middle;
+	position: absolute;
+	left: 30%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	/* width: 600px; */
+	/* height: 155px; */
+	/* padding: 60px; */
+	text-align:justify;
+	cursor: pointer;	
+}
+
+#light02 {
+	width: 50vh;
+	height: 100%;
 }
