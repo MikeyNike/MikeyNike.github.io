@@ -31,10 +31,9 @@
 } */
 #underlinenone:hover {
 	/* background-color: #ddd900; */
-	color:aquamarine;
+	color:#ff0000;
 	cursor: pointer;
 	text-decoration: line-through;
-	z-index: ;
 }
 
 #underlinenone {
