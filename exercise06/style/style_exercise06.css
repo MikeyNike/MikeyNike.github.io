@@ -251,7 +251,6 @@
 }
 #homev:hover {
 	transform: scale(.75);
-	transition-delay:6s;
 	/* line-height: .1em; */
 }
 
