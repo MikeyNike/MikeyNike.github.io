@@ -88,7 +88,7 @@
 	/* width: 600px; */
 	/* height: 155px; */
 	/* padding: 60px; */
-	text-align:justify;
+	text-align:left;
 	cursor: pointer;	
 }
 
@@ -124,4 +124,26 @@
 #light02 {
 	width: 50vh;
 	height: 100%;
+
+}
+
+#underlinenone02 {
+	text-decoration: none;
+	color: black;
+	font-style:normal;
+	font-size: .5em;
+	line-height: 1em;
+}
+
+#home {
+	/* width: 100px;
+	height: 100px;
+	background-color: red; */
+	top:0;
+	left:23vw;
+	position:absolute;
+	z-index: index 2;
+	font-style:normal;
+	font-size: 20vw;
+	/* pointer-events: none; */
 }
