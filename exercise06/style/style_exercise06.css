@@ -249,7 +249,11 @@
 	/* pointer-events: none; */
 	z-index: 1;
 }
-
+#homev:hover {
+	transform: scale(.75);
+	transition-delay:6s;
+	/* line-height: .1em; */
+}
 
 .verticalline {
 	background-color: #ff0000;
@@ -259,10 +263,6 @@
 	top: 2px;
 	left: 45vw;
 	/* transform:rotate(15deg); */
-}
-
-.verticalline:hover {
-	transform:rotate(15deg);
 }
 
 #underlinenone03 {
