@@ -34,6 +34,7 @@
 	color:aquamarine;
 	cursor: pointer;
 	text-decoration: line-through;
+	z-index: ;
 }
 
 #underlinenone {
@@ -247,6 +248,7 @@
 	text-align: center;
 	/* border-left: thick solid 2px #ff0000; */
 	/* pointer-events: none; */
+	z-index: 1;
 }
 #homev:hover {
 	transform: scale(.75);
