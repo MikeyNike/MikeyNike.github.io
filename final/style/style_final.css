@@ -125,14 +125,28 @@ a {
 	text-decoration: line-through;
 }
 
-
-
 #return {
     display:inline-block;
 	vertical-align: middle;
 	position: absolute;
 	top: 5%;
 	left: 5% ;
+	transform: translate(-50%, -50%);
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	width: 600px;
+	text-align:center;
+	cursor: pointer;
+}
+
+#next {
+    display:inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: 95%;
+	left: 95% ;
 	transform: translate(-50%, -50%);
 	border: 2px solidcolor #ddd900;
 	font-style:normal;
