@@ -225,15 +225,13 @@ a {
 	animation: moveback 15s ;
 }
 
-/* 
-.img {
+
+/* .img {
 	position: absolute;
-	background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJqZ2w3NnRiY2duOWN3OTA5MzFzMGswbG1zd3lxcXRzeWh0cHR3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NZUZ80nOX7FqrXiRIO/giphy.gif);
-	background-size: cover;
-	background-position: center; /* Center the image */
-	background-repeat: repeat;
-	width: 1000%;
-	height: 100vh;
-	z-index: 0;
+	background-image: url(../Candids/crumblepaper.gif);
+	background-position: center; 
+	background-repeat:space;
+	max-width: 1000vw;
+	max-height: 1000vh;
 	/* animation: moveback 15s ; */
 } */
