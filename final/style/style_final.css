@@ -211,21 +211,21 @@ a {
 	
 }
 
-/* .img {
+.img {
 	position: absolute;
 	left: auto;
 	background-image: url(../Candids/crumbledpaper.jpg);
 	opacity: 45%;
 	background-size: cover;
 	background-position: center; /* Center the image */
-	background-repeat:rep; /* Prevent repeating the image */
-	width: 100vw;
+	background-repeat:repeat; 
+	width: 100vw; 
 	height: 100vh;
-	z-index: 0;
+	/* /* z-index: 0; * */
 	animation: moveback 15s ;
-} */
+}
 
-
+/* 
 .img {
 	position: absolute;
 	background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJqZ2w3NnRiY2duOWN3OTA5MzFzMGswbG1zd3lxcXRzeWh0cHR3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NZUZ80nOX7FqrXiRIO/giphy.gif);
@@ -236,4 +236,4 @@ a {
 	height: 100vh;
 	z-index: 0;
 	/* animation: moveback 15s ; */
-}
+} */
