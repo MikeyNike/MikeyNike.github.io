@@ -12,8 +12,8 @@ a {
 	/* background-color: black; */
 	height: 100vh;
 	width: 50vw;
-    top: 25%;
-	left: 38vw;
+    top: 18%;
+	left: 34%;
 	overflow: hidden;
     position: absolute;
     vertical-align: middle;
@@ -23,8 +23,8 @@ a {
 }
 
 #light {
-	width: 50%;
-	height: 50%;
+	width: 65%;
+	height: 65%;
 }
 
 .landing {
@@ -43,7 +43,7 @@ a {
 	cursor: pointer;	
 	/* z-index: 1000; */
 	animation: moveY 10s ;
-	animation-delay: .5s;
+	animation-delay: 1s;
 	transition-timing-function: ease-in-out;
 }
 
