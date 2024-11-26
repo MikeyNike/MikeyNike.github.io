@@ -17,9 +17,9 @@ a {
 	overflow: hidden;
     position: absolute;
     vertical-align: middle;
-	animation: moveX 20s infinite;
+	animation: moveX 15s infinite;
 	opacity: 0%;
-	animation-delay: 5s;
+	animation-delay: 2s;
 }
 
 #light {
@@ -42,8 +42,8 @@ a {
 	text-align:center;
 	cursor: pointer;	
 	/* z-index: 1000; */
-	animation: moveY 15s ;
-	animation-delay: 3s;
+	animation: moveY 10s ;
+	animation-delay: .5s;
 	transition-timing-function: ease-in-out;
 }
 
@@ -158,9 +158,9 @@ a {
 	line-height: 1.5em;
 	width: 600px;
 	text-align:center;
-	animation: moveX 20s infinite;
+	animation: moveX 15s infinite;
 	opacity: 0%;
-	animation-delay: 5s;
+	animation-delay: 2s;
 	
 }
 
