@@ -1,27 +1,25 @@
+.container {
+		text-decoration: none;	
+} 
+
+a { 
+	color: inherit; 
+	text-decoration: none; 
+}
+
 .photo {
 	display: block;
 	/* background-color: black; */
 	height: 100vh;
 	width: 50vw;
     top: 25%;
+	left: 38vw;
 	overflow: hidden;
     position: absolute;
     vertical-align: middle;
-    left: 514px;
-    /* transition-timing-function: ease-in;
-    transition-duration: 10s;
-    transition-delay: 5s; */
-}
-
-.photo {
-    animation-name: photo-ease-in;
-    animation-duration: 10s;
-    animation-timing-function: ease-in;
-    animation-delay: 3s;
-    animation-iteration-count: 3;
-    animation-direction: normal;
-    animation-play-state: running;
-    animation-fill-mode: none;	
+	animation: moveX 20s infinite;
+	opacity: 0%;
+	animation-delay: 5s;
 }
 
 #light {
@@ -41,42 +39,141 @@
 	font-size: 1.3em;
 	line-height: 1.5em;
 	width: 600px;
-	/* height: 155px; */
-	/* padding: 60px; */
 	text-align:center;
 	cursor: pointer;	
 	/* z-index: 1000; */
-    transition-duration: 5s;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-timing-function: ease-in;
-}
-
-@keyframes moveY {
-	0% {
-		transform: translateY(100vw);
-		opacity: 0.5;
-	}
-	50% {
-		transform: translateY(0vw);
-		opacity: 1;
-	}
-	100% {
-		transform: translateY(100vw);
-		opacity: 2;
-	}
+	animation: moveY 15s ;
+	animation-delay: 3s;
+	transition-timing-function: ease-in-out;
 }
 
 @keyframes moveX {
 	0% {
-		transform: translateX(100vw);
-		opacity: 0.5;
+		opacity: 0;
+		transition-timing-function:ease-in;
+	}
+	 50% {
+		opacity: 100%;
+		transition-timing-function: ease-out;
+	} 
+}
+
+@keyframes moveY {
+	100% {
+		opacity: 0;
+		transition-timing-function:ease-in;
+	}
+	 0% {
+		opacity: 100%;
+		/* transition-timing-function: ease-out; */
+	} 
+}
+
+
+@keyframes moveback {
+	0% {
+		transform: translate (0,0)
 	}
 	50% {
-		transform: translateX(0vw);
-		opacity: 1;
-	}
+		transform: translate (10px, -10px);
+	} 
 	100% {
-		transform: translateX(100vw);
-		opacity: 2;
+		transform: translate (0,0);
 	}
+}
+
+
+
+#title {
+	position: relative;
+	display:inline-block;
+	vertical-align: middle;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	border: 2px solidcolor #ddd900;
+	font-style:italic;
+	font-size: 6.3em;
+	width: 600px;
+	text-align:center;
+	cursor: pointer;	
+
+}
+
+#title01 {
+	text-decoration: none;
+	display:inline-block;
+	vertical-align: middle;
+	position: absolute;
+	left: 50%;
+	top: 43%;
+	transform: translate(-50%, -50%);
+	border: 2px solidcolor #ddd900;
+	font-style:italic;
+	font-size: 7.6em;
+	width: 600px;
+	text-align:center;
+	cursor: pointer;
+
+}
+#title01:hover {
+	text-decoration: line-through;
+}
+
+#title:hover {
+	text-decoration: line-through;
+}
+
+
+
+#about-container {
+    display:inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: 5%;
+	left: 5% ;
+	transform: translate(-50%, -50%);
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	width: 600px;
+	text-align:center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+#about-container02 {
+    display:inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: 75%;
+	left: 50% ;
+	transform: translate(-50%, -50%);
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: .8em;
+	line-height: 1.5em;
+	width: 600px;
+	text-align:center;
+	animation: moveX 20s infinite;
+	opacity: 0%;
+	animation-delay: 5s;
+	
+}
+
+.img {
+	position: absolute;
+	left: auto;
+	background-image: url(../Candids/crumbledpaper.jpg);
+	opacity: 45%;
+	background-size: cover;
+	background-position: center; /* Center the image */
+	background-repeat:rep; /* Prevent repeating the image */
+	width: 100vw;
+	height: 100vh;
+	z-index: 0;
+	animation: moveback 15s ;
 }
