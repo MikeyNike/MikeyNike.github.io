@@ -211,10 +211,25 @@ a {
 	
 }
 
-.img {
+/* .img {
 	position: absolute;
 	left: auto;
 	background-image: url(../Candids/crumbledpaper.jpg);
+	opacity: 45%;
+	background-size: cover;
+	background-position: center; /* Center the image */
+	background-repeat:rep; /* Prevent repeating the image */
+	width: 100vw;
+	height: 100vh;
+	z-index: 0;
+	animation: moveback 15s ;
+} */
+
+
+.img {
+	position: absolute;
+	left: auto;
+	background-image: url(https://makeagif.com/gif/free-stock-video-crumpled-paper-background-aTcUme);
 	opacity: 45%;
 	background-size: cover;
 	background-position: center; /* Center the image */
