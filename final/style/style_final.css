@@ -237,5 +237,5 @@ a {
 	width: 100vw;
 	height: 100vh;
 	z-index: 0;
-	animation: moveback 15s ;
+	/* animation: moveback 15s ; */
 }
