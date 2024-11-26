@@ -1,28 +1,82 @@
-/* button {
-    font-size: 5rem;
-    display: block;
-    margin: 3rem auto;
-}
-
-div {
-    width: 100px;
-    height: 100px;
-    background-color: pink;
-    margin: 0 auto;
-} */
-
 .photo {
 	display: block;
 	/* background-color: black; */
 	height: 100vh;
 	width: 50vw;
-	margin: 0 auto;
-    top: 50vw;
+    top: 25%;
 	overflow: hidden;
-    position: relative;
+    position: absolute;
+    vertical-align: middle;
+    left: 514px;
+    /* transition-timing-function: ease-in;
+    transition-duration: 10s;
+    transition-delay: 5s; */
+}
+
+.photo {
+    animation-name: photo-ease-in;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: none;	
 }
 
 #light {
 	width: 50%;
 	height: 50%;
+}
+
+.landing {
+    display:block;
+	vertical-align: middle;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solidcolor #ddd900;
+	font-style:normal;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	width: 600px;
+	/* height: 155px; */
+	/* padding: 60px; */
+	text-align:center;
+	cursor: pointer;	
+	/* z-index: 1000; */
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-timing-function: ease-in;
+}
+
+@keyframes moveY {
+	0% {
+		transform: translateY(100vw);
+		opacity: 0.5;
+	}
+	50% {
+		transform: translateY(0vw);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(100vw);
+		opacity: 2;
+	}
+}
+
+@keyframes moveX {
+	0% {
+		transform: translateX(100vw);
+		opacity: 0.5;
+	}
+	50% {
+		transform: translateX(0vw);
+		opacity: 1;
+	}
+	100% {
+		transform: translateX(100vw);
+		opacity: 2;
+	}
 }
