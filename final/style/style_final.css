@@ -228,13 +228,12 @@ a {
 
 .img {
 	position: absolute;
-	left: auto;
 	background-image: url(../Candids/crumblepaper.gif);
 	opacity: 45%;
-	background-size: cover;
+	background-size: contain;
 	background-position: center; /* Center the image */
-	background-repeat:rep; /* Prevent repeating the image */
-	width: 100vw;
+	background-repeat: repeat-x;
+	width: 1000%;
 	height: 100vh;
 	z-index: 0;
 	/* animation: moveback 15s ; */
