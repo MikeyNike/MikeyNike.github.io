@@ -98,6 +98,7 @@ a {
 	width: 600px;
 	text-align:center;
 	cursor: pointer;	
+	transition: 0s
 
 }
 
@@ -142,6 +143,7 @@ a {
 	cursor: pointer;
 }
 
+
 #return01 {
     display:inline-block;
 	vertical-align: middle;
@@ -158,6 +160,9 @@ a {
 	cursor: pointer;
 }
 
+#return:hover {
+	text-decoration: line-through;
+}
 #next {
     display:inline-block;
 	vertical-align: middle;
@@ -172,6 +177,10 @@ a {
 	width: 600px;
 	text-align:center;
 	cursor: pointer;
+}
+
+#next:hover {
+	text-decoration: line-through;
 }
 
 #about-container:hover {
