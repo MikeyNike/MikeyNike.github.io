@@ -143,6 +143,9 @@ a {
 	cursor: pointer;
 }
 
+#return:hover {
+	text-decoration: line-through;
+}
 
 #return01 {
     display:inline-block;
@@ -160,9 +163,10 @@ a {
 	cursor: pointer;
 }
 
-#return:hover {
+#return01:hover {
 	text-decoration: line-through;
 }
+
 #next {
     display:inline-block;
 	vertical-align: middle;
