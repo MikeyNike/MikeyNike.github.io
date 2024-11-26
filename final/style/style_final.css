@@ -145,8 +145,8 @@ a {
     display:inline-block;
 	vertical-align: middle;
 	position: absolute;
-	top: 95%;
-	left: 95% ;
+	top: 5%;
+	left: 88% ;
 	transform: translate(-50%, -50%);
 	border: 2px solidcolor #ddd900;
 	font-style:normal;
