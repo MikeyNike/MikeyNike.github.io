@@ -13,7 +13,7 @@ body {
 	font-family: "Audiowide", sans-serif;
 	color: blue;
 	font-size: 1rem;
-	background-image: url("../stock.jpeg");
+	background-image: url("../bakgroundimage/stock.jpeg");
 	background-size: cover;
 }
 h1 {
